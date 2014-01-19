@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author ersin
- *
- */
-package observer;
