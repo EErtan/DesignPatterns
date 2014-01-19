@@ -4,7 +4,7 @@ package observer;
 // not included: method to dataSet and isDataChanged boolean state to stop unnecessary pushes to observers
 
 // will work with any data type, as it packages the data into an arraylist of objects
-// during the information push, the subject also send a parser type interface that the observer uses
+// during the information push, the subject also send a parser type interface (strategy pattern) that the observer uses
 // to extract the data from the package
 import java.util.ArrayList;
 
