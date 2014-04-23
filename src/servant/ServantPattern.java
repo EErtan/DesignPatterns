@@ -17,7 +17,6 @@ class Obj implements IMovable{
 	@Override
 	public void setPos(int i) {
 		myPos = i;
-		
 	}
 	@Override
 	public int getPos() {
@@ -34,7 +33,6 @@ class Mover{
 	public static void moveBy(IMovable im, int posToMoveBy){
 		im.setPos(im.getPos() + posToMoveBy);
 	}
-	
 }
 
 public class ServantPattern{
